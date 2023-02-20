@@ -1,0 +1,148 @@
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: black;
+}
+
+canvas {
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.parent {
+  display: inline-block;
+  position: relative;
+}
+
+#screen {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.attackBar {
+  background-color: white;
+  height: 140px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 4px black solid;
+  display: flex;
+}
+#textExplain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  padding: 12px;
+  display: none;
+  cursor: pointer;
+}
+
+#attackButtons {
+  width: 66.66%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#attackButtons button {
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+#attackButtons button:hover {
+  background-color: lightgrey;
+  /*  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* #attackButtons button:active { 
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+#attackText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+  border-left: 4px black solid;
+}
+
+#userInterface {
+  display: none;
+}
+
+#healthBar1 {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 4px black solid;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+#parentHealthSlider1 {
+  position: relative;
+}
+
+#healthSlider1 {
+  height: 5px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+#healthSlider2 {
+  height: 5px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#healthBar2 {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  bottom: 175px;
+  right: 50px;
+  border: 4px black solid;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+#parentHealthSlider2 {
+  position: relative;
+}
+
+#healthSlider3 {
+  height: 5px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+#healthSlider4 {
+  height: 5px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

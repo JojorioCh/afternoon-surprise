@@ -1,5 +1,5 @@
 const fightBackgroundImage = new Image();
-fightBackgroundImage.src = "images/battleBackground.png";
+fightBackgroundImage.src = "./images/battleBackground.png";
 const fightBackground = new Sprite({
   position: {
     x: 0,

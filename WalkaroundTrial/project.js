@@ -50,19 +50,19 @@ fightTimeMap.forEach((row, i) => {
 });
 
 const image = new Image();
-image.src = "./images/Poke_Style.png";
+image.src = "./Images/Poke_Style.png";
 
 const foreImage = new Image();
-foreImage.src = "./images/ForegroundObj.png";
+foreImage.src = "./Images/ForegroundObj.png";
 
 const playerSpriteDown = new Image();
-playerSpriteDown.src = "./images/playerDown.png";
+playerSpriteDown.src = "./Images/playerDown.png";
 const playerSpriteUp = new Image();
-playerSpriteUp.src = "./images/playerUp.png";
+playerSpriteUp.src = "./Images/playerUp.png";
 const playerSpriteLeft = new Image();
-playerSpriteLeft.src = "./images/playerLeft.png";
+playerSpriteLeft.src = "./Images/playerLeft.png";
 const playerSpriteRight = new Image();
-playerSpriteRight.src = "./images/playerRight.png";
+playerSpriteRight.src = "./Images/playerRight.png";
 
 const player = new Sprite({
   position: {
